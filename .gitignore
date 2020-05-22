@@ -1,0 +1,6 @@
+# Pipenv file
+/Pipfile
+/Pipfile.lock
+
+# PyCharm checkpoints
+/.idea
