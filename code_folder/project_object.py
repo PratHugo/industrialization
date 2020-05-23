@@ -2,16 +2,15 @@ from code_folder.read_data import read_json_data
 from setting import logger
 
 
-# This class create a Python object with a CONVERSION_DICT attribute and 2 instance attribute data and list_item
 class MyObject:
+    """This class create a Python object with a his associated methods
 
-    CONVERSION_DICT = {
-        "un": 1,
-        "deux": 2,
-        "trois": 3,
-        "quatre": 4,
-        "cinq": 5
-    }
+        Attributes:
+            data: A boolean indicating if we like SPAM or not.
+            list_item: An integer count of the eggs we have laid.
+        """
+
+    CONVERSION_DICT = {"un": 1, "deux": 2, "trois": 3, "quatre": 4, "cinq": 5}
 
     def __init__(self, data_path):
         self.data = read_json_data(data_path)
