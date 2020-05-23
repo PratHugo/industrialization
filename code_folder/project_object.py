@@ -37,6 +37,6 @@ class MyObject:
             try:
                 list_item_converted.append(int(item))
             except ValueError:
-                logger.info(f" '{item}' at index {index} is not an integer")
+                logger.info(" '%s' at index %s is not an integer", item, index)
                 list_item_converted.append(conversion_dict[item])
         return list_item_converted

@@ -2,6 +2,9 @@ import os
 import unittest
 
 from code_folder.project_object import MyObject
+# pylint: disable=missing-class-docstring
+# pylint: disable=missing-function-docstring
+# pylint: disable=no-self-use
 
 
 class TestMyObject(unittest.TestCase):
@@ -10,7 +13,7 @@ class TestMyObject(unittest.TestCase):
 
     def test_data_type(self):
         result_data = MyObject(TestMyObject.DATA_PATH).data
-        assert(type(result_data) == dict)
+        assert(result_data.isinstance(dict))
 
     def test_convert_item(self):
         result_list = \
