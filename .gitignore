@@ -4,3 +4,4 @@
 
 # PyCharm checkpoints
 /.idea
+__pycache__/
