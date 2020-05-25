@@ -13,7 +13,7 @@ class TestMyObject(unittest.TestCase):
 
     def test_data_type(self):
         result_data = MyObject(TestMyObject.DATA_PATH).data
-        assert(result_data.isinstance(dict))
+        assert(isinstance(result_data, dict))
 
     def test_convert_item(self):
         result_list = \
