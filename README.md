@@ -59,5 +59,4 @@ and add the following default arguments to the black config :
 - **Hugo Prat** - [GitHub](https://github.com/PratHugo) - [email](mailto:hugoprat95@gmail.com) 
 
 ## Contact:
-*[ebargain@hotmail.com](mailto:ebargain@hotmail.com])*
-and *[arnold.vialfont@u-pec.fr](mailto:arnold.vialfont@u-pec.fr)*
+*[arnold.vialfont@u-pec.fr](mailto:arnold.vialfont@u-pec.fr)*
